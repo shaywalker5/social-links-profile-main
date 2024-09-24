@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/main.css" />
+
+  <title>Frontend Mentor | Social links profile</title>
+  <script>
+    function goToGitHub() {
+      const url = "https://github.com/shaywalker5";
+      window.location.href = url;
+    }
+    function goToFrontEndMentor() {
+      const url = "https://www.frontendmentor.io/profile/shaywalker5";
+      window.location.href = url;
+    }
+    function goToLinkedIn() {
+      const url = "https://www.linkedin.com/in/shaylavwalker";
+      window.location.href = url;
+    }
+    function goToTwitter() {
+      const url = "https://www.x.com";
+      window.location.href = url;
+    }
+    function goToInstagram() {
+      const url = "https://www.instagram.com";
+      window.location.href = url;
+    }
+</script>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <main class="container">
+    <picture>
+      <img src="./assets/images/avatar-jessica.jpeg">
+    </picture>
+    <h1>Jessica Randall</h1>
+    <p1>London, United Kingdom </p1>
+    <p2>"Front-end developer and avid reader."</p2>
+    <div class="buttonContainer">
+      <button onclick = "goToGitHub()" >GitHub</button>
+      <button onclick = "goToFrontEndMentor()">Frontend Mentor</button>
+      <button onclick = "goToLinkedIn()"> LinkedIn</button>
+      <button onclick = "goToTwitter()">Twitter</button>
+      <button onclick ="goToInstagram()">Instagram</button>
+    </div>
+  </div>
+</div>
+</body>
+<div class="attribution">
+  Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+  Coded by <a href="www.linkedin.com/in/shaylavwalker">Shayla</a>.
+</div>
+</html>
